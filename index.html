@@ -17,7 +17,7 @@
             injection.forEach(item => {
                 const element = document.createElement("script")
                 element.src = `${item}?v=${version}`
-                timeCounter+=300
+                timeCounter += 300
                 setTimeout(()=>{
                     document.querySelector('body').appendChild(element)
                 }, timeCounter)
