@@ -3,16 +3,12 @@ const version = Date.now()
 {
     function loadScriptDI(){
         const injection = [
-            '/components/common/script.js'
+            'common'
         ]
-        let timeCounter = 0
         injection.forEach(item => {
             const element = document.createElement("script")
-            element.src = `${DOMAIN_URL}${item}?v=${version}`
-            timeCounter += 300
-            setTimeout(()=>{
-                document.querySelector('body').appendChild(element)
-            }, timeCounter)
+            element.src = `${DOMAIN_URL}/components/${item}/script.js?v=${version}`
+            document.querySelector('body').appendChild(element)
         })
     }
     loadScriptDI()
