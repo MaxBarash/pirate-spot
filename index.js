@@ -2,6 +2,7 @@ const DOMAIN_URL = 'https://www.goolglobal.com/files/pirate-spot'
 const version = Date.now()
 {
 	const scriptsJs = ['common']
+	const scriptsCss = ['common']
 	function loadScriptDI(arrScripts) {
 		arrScripts.forEach(item => {
 			const element = document.createElement('script')
@@ -10,8 +11,6 @@ const version = Date.now()
 		})
 	}
 	loadScriptDI(scriptsJs)
-
-	const scriptsCss = ['common']
 	function loadStyleDI(arrScripts) {
 		arrScripts.forEach(item => {
 			document
