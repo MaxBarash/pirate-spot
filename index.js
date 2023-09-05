@@ -1,4 +1,4 @@
-const DOMAIN_URL = 'https://pirate-spot.lenddev.com.ua'
+const DOMAIN_URL = 'https://www.goolglobal.com/files/pirate-spot'
 const version = Date.now()
 {
 	const scriptsJs = ['common']
@@ -15,8 +15,8 @@ const version = Date.now()
 	function loadStyleDI(arrScripts) {
 		arrScripts.forEach(item => {
 			document
-				.querySelector('body')
-				.insertAdjacentElement(
+				.querySelector('head')
+				.insertAdjacentHTML(
 					'beforeend',
 					`<link rel='stylesheet' href='${DOMAIN_URL}/components/${item}/style.css?v=${version}'>`
 				)
