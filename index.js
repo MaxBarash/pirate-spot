@@ -1,8 +1,16 @@
 const DOMAIN_URL = 'https://www.goolglobal.com/files/pirate-spot'
 const version = Date.now()
 {
+	function isMainPage() {
+		return (
+			window.location.pathname === '/en/' || window.location.pathname === '/hi'
+		)
+	}
 	const scriptsJs = ['common']
 	const scriptsCss = ['common']
+	if (isMainPage() && document.querySelector('.l7--wrapper-stories')) {
+		if (!scriptsCss.includes('banner')) scriptsCss.push('banner')
+	}
 	function loadScriptDI(arrScripts) {
 		arrScripts.forEach(item => {
 			const element = document.createElement('script')

@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+	.l5--main .l7--wrapper.l7--wrapper-stories {
+		display: none;
+	}
+}
