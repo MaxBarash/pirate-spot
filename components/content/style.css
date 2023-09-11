@@ -11,6 +11,12 @@
 	font-size: 16px;
 	line-height: 24px;
 }
+.ps_content_container_read_more {
+	display: none;
+}
+.ps_content_read_more {
+	cursor: pointer;
+}
 @media screen and (max-width: 768px) {
 	.ps_content {
 		padding: 15px;

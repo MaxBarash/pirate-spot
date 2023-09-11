@@ -441,6 +441,9 @@ li .menu-item {
 	border-radius: 5px;
 	padding: 10px 20px 10px 20px;
 }
+.ps_show {
+	display: block !important;
+}
 .ps_fadeIn {
 	animation-name: ps_fadeIn;
 	animation-duration: 4s;

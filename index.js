@@ -19,6 +19,7 @@ const version = Date.now()
 		}
 		if (document.querySelector('.ps_content')) {
 			if (!scriptsCss.includes('content')) scriptsCss.push('content')
+			if (!scriptsJs.includes('content')) scriptsJs.push('content')
 		}
 		if (document.querySelector('.ps_events')) {
 			if (!scriptsCss.includes('events')) scriptsCss.push('events')
