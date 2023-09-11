@@ -1,30 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500;600;700&display=swap');
 
 :root {
-	--img-baner: url(https://i.ibb.co/4Yt3Dhp/baner-iteam.png) center center /
-		cover;
-	--img-baner-2: url(https://piratespot-piratespot.dgbuilder.io/img/editor/ef24474ad5c04cf0a7346a658af4a4d4.webp)
-		center center / cover;
-	--img-background: url(https://i.ibb.co/4Yt3Dhp/baner-iteam.png) center center /
-		cover;
-	--live-casino-welcome-bonus: url(https://i.ibb.co/s17Z0fx/Live-Casino-Bonus-Page.webp)
-		center center / cover;
-	--top1860x511: url(https://i.ibb.co/6HVmg4s/TOP-1860x511.png) center center /
-		cover;
+	--img-baner: url(https://i.ibb.co/4Yt3Dhp/baner-iteam.png) center center / cover;
+	--img-baner-2: url(https://piratespot-piratespot.dgbuilder.io/img/editor/ef24474ad5c04cf0a7346a658af4a4d4.webp) center
+		center / cover;
+	--img-background: url(https://i.ibb.co/4Yt3Dhp/baner-iteam.png) center center / cover;
+	--live-casino-welcome-bonus: url(https://i.ibb.co/s17Z0fx/Live-Casino-Bonus-Page.webp) center center / cover;
+	--top1860x511: url(https://i.ibb.co/6HVmg4s/TOP-1860x511.png) center center / cover;
 	--top600x300: url(https://i.ibb.co/cNFp7SC/Promo.png) center center / cover;
 
 	--font-color-dark: #231c3c;
 	--text-color-brand: #231c3c;
 	--background-opaciti-box: rgba(255, 255, 255, 0.6);
 	--bg-color: #d9d9d9ff;
-	--batton-bg-color: linear-gradient(
-		90deg,
-		rgba(255, 97, 47, 1) 0%,
-		rgba(255, 187, 0, 1) 100%
-	);
+	--batton-bg-color: linear-gradient(90deg, rgba(255, 97, 47, 1) 0%, rgba(255, 187, 0, 1) 100%);
 	--linear-gradient-color: linear-gradient(to top left, #b200ff, #4300ff);
 }
-
 body,
 html {
 	font-family: 'Kanit', sans-serif;
@@ -180,11 +171,7 @@ details,
 	min-width: 153px;
 	min-height: 45px;
 	text-decoration: none;
-	background: linear-gradient(
-		90deg,
-		rgba(255, 97, 47, 1) 0%,
-		rgba(255, 187, 0, 1) 100%
-	);
+	background: linear-gradient(90deg, rgba(255, 97, 47, 1) 0%, rgba(255, 187, 0, 1) 100%);
 	border-radius: 5px;
 	border: none;
 }
@@ -453,4 +440,16 @@ li .menu-item {
 	font-weight: 600;
 	border-radius: 5px;
 	padding: 10px 20px 10px 20px;
+}
+.ps_fadeIn {
+	animation-name: ps_fadeIn;
+	animation-duration: 4s;
+}
+@keyframes ps_fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
