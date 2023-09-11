@@ -1,0 +1,19 @@
+.ps_app_downloads {
+	padding: 5px 0px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.ps_app_downloads_item {
+	width: 400px;
+	max-width: 50%;
+	cursor: pointer;
+}
+.ps_app_downloads_item img {
+	width: 100%;
+}
+@media screen and (max-width: 768px) {
+	.ps_app_downloads {
+		justify-content: space-between;
+	}
+}

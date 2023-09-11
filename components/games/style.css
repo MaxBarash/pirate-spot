@@ -1,0 +1,28 @@
+.ps_games {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ps_game_item {
+	width: 23%;
+	max-width: 415px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.ps_game_card_img img {
+	width: 100%;
+}
+.ps_game_card_action_wrapper {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+	.ps_games {
+		padding-top: 15px;
+	}
+	.ps_game_item {
+		width: 48%;
+		margin-top: 0px;
+	}
+}

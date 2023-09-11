@@ -1,0 +1,24 @@
+.ps_events {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ps_event_item {
+	width: 48%;
+	max-width: 920px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.ps_event_card_img img {
+	width: 100%;
+}
+@media screen and (max-width: 768px) {
+	.ps_events {
+		padding-top: 15px;
+		justify-content: center;
+	}
+	.ps_event_item {
+		width: 100%;
+		margin-top: 0px;
+	}
+}
