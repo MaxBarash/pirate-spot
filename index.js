@@ -14,7 +14,7 @@ const version = Date.now()
 		if (document.querySelector('.ps_app_downloads')) {
 			if (!scriptsCss.includes('app_downloads')) scriptsCss.push('app_downloads')
 		}
-		if (document.querySelector('.ps_apps_page_banner')) {
+		if (document.querySelector('.ps-apps-page-banner')) {
 			if (!scriptsCss.includes('app_page_banner')) scriptsCss.push('app_page_banner')
 		}
 		if (document.querySelector('.ps_content')) {
